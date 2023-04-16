@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bshah5/DAA_Programming'
+make: Leaving directory '/home/bshah5/DAA_Programming'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
