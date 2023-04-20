@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bshah5/DAA_Programming/Shah_BhavitY_proj4'
+rm -rf *.class
+javac shah_bhavity_prj4.java
+java shah_bhavity_prj4.java
+make: Leaving directory '/home/bshah5/DAA_Programming/Shah_BhavitY_proj4'
+ 

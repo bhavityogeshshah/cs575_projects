@@ -5,6 +5,7 @@ public class shah_bhavity_prj4 {
     public static void main(String[] args) {
 
         Random r = new Random();
+
         // Generating random size for the number of vertex in a graph
         int n = r.nextInt(5 + 1) + 5;
 
@@ -32,10 +33,7 @@ public class shah_bhavity_prj4 {
                 }
             }
         }
-        // int n = 5;
-        // int[][] adjc = { { 0, 5, 8, 7, 9 }, { 5, 0, 2, 8, 6 }, { 8, 2, 0, 7, 7 }, {
-        // 7, 8, 7, 0, 6 },
-        // { 9, 6, 7, 6, 0 } };
+
         // Printing the generate matrix
 
         System.out.println("Generated Adj Matrix");
@@ -60,7 +58,7 @@ public class shah_bhavity_prj4 {
             prim.Prims(adjc, n);
         } else if (s.equalsIgnoreCase("Kruskal")) {
             shah_bhavity_kruskal kru = new shah_bhavity_kruskal();
-            kru.kruskal(adjc,n);
+            kru.kruskal(adjc, n);
         } else {
             System.err.println("Error Incorrect Algorithm selected");
             System.exit(-1);
