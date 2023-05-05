@@ -1,5 +1,7 @@
-4	63	48
+6	49
 Item1	24	17
 Item2	12	12
 Item3	15	10
 Item4	12	9
+Item5	20	19
+Item6	16	15
