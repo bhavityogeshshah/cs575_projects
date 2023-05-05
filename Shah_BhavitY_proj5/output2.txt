@@ -1,0 +1,7 @@
+Max profit: 60
+Item	Profit	Weight
+Item5	27	13
+Item4	19	7
+Item3	14	8
+Total weight: 28
+Selected Items: 3

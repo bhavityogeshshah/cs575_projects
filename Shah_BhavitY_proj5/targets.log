@@ -1,0 +1,207 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu May  4 20:41:08 2023
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /home/bshah5
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/bshah5/DAA_Programming/Shah_BhavitY_proj5
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/bshah5/DAA_Programming/Shah_BhavitY_proj5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+KRB5CCNAME = FILE:/tmp/krb5cc_16878_jAZr6iLNqN
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/16878/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/bshah5/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/remote-cli:/usr/local/bin:/usr/bin:/bin:/usr/games
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+SSH_CLIENT = 128.226.226.12 64948 22
+# automatic
+?F = $(notdir $?)
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /home/bshah5/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/helpers/browser.sh
+# environment
+LOGNAME = bshah5
+# makefile
+.DEFAULT_GOAL := run
+# environment
+USER = bshah5
+# default
+MAKE_VERSION := 4.3
+# environment
+VSCODE_AGENT_FOLDER = /home/bshah5/.vscode-server
+# environment
+_ = /home/bshah5/.vscode-server/bin/252e5463d60e63238250799aef7375787f68b4ee/bin/code-server
+# environment
+XDG_RUNTIME_DIR = /run/user/16878
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/16878/vscode-ipc-e81f0eff-ce75-4a2c-a72b-91b977ddb043.sock
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/bshah5
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+XDG_SESSION_ID = 291773
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+SSH_CONNECTION = 128.226.226.12 64948 128.226.114.203 22
+# variable set hash-table stats:
+# Load=63/1024=6%, Rehash=0, Collisions=1/93=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 57, inode 416057389): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-05-04 13:30:43.614349906
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	rm -rf *.class
+	javac backtrack.java
+	javac createkn01.java
+	javac dynpro.java
+	javac bruteforce.java
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 28 / storage = 332 B / avg = 11 B
+# current buf: size = 8162 B / used = 332 B / count = 28 / avg = 11 B
+
+# strcache performance: lookups = 33 / hit rate = 15%
+# hash-table stats:
+# Load=28/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Thu May  4 20:41:08 2023
+
+ 

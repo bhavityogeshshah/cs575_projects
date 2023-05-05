@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bshah5/DAA_Programming/Shah_BhavitY_proj5'
+rm -rf *.class
+javac backtrack.java
+javac createkn01.java
+javac dynpro.java
+javac bruteforce.java
+make: Leaving directory '/home/bshah5/DAA_Programming/Shah_BhavitY_proj5'
+ 

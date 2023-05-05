@@ -1,0 +1,8 @@
+Total Profit:60
+Item	Profit	Weight
+Item4	19	7
+Item3	14	8
+Item5	27	13
+
+Total Weight:28
+Selected Items: 3

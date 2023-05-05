@@ -1,0 +1,15 @@
+Node:  Total Profit: 0 Total Weight: 0 Bound: 63.0
+Node:  Total Profit: 19 Total Weight: 7 Bound: 63.0
+Node:  Total Profit: 33 Total Weight: 15 Bound: 63.0
+Node:  Total Profit: 43 Total Weight: 23 Bound: 63.0
+Node:  Total Profit: 70 Total Weight: 36 Bound: 70.0
+Node:  Total Profit: 43 Total Weight: 23 Bound: 51.0
+Node:  Total Profit: 59 Total Weight: 42 Bound: 59.0
+Node:  Total Profit: 43 Total Weight: 23 Bound: 43.0
+Node:  Total Profit: 33 Total Weight: 15 Bound: 64.0
+Node:  Total Profit: 60 Total Weight: 28 Bound: 64.0
+Node:  Total Profit: 76 Total Weight: 47 Bound: 76.0
+Node:  Total Profit: 60 Total Weight: 28 Bound: 60.0
+Node:  Total Profit: 33 Total Weight: 15 Bound: 48.0
+Node:  Total Profit: 19 Total Weight: 7 Bound: 60.0
+Node:  Total Profit: 0 Total Weight: 0 Bound: 54.0
