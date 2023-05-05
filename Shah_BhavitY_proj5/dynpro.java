@@ -8,6 +8,13 @@ public class dynpro {
     static int[][] dp;
     static int[][] selected;
 
+    /**
+     * perform refined dynamic programming algorithm
+     * 
+     * @param items_left
+     * @param max_cap
+     * @return
+     */
     static int dynapro(int items_left, int max_cap) {
         if (items_left == 0 || max_cap == 0) {
             selected[items_left][max_cap] = 0;

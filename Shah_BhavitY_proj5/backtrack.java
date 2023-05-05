@@ -107,6 +107,15 @@ public class backtrack {
         return bound;
     }
 
+    /**
+     * Performs knapsack opertaion with back tracking
+     * 
+     * @param nodeIn
+     * @param i
+     * @param profit
+     * @param weight
+     * @param resIn
+     */
     public static void perform_kanpsack(Node nodeIn, int i, int profit, int weight, ResultWriter resIn) {
         if (weight <= nodeIn.max_capacity && profit > max_profit) {
             max_profit = profit;
@@ -131,15 +140,25 @@ public class backtrack {
         }
     }
 
+    /**
+     * Print the nodes after sorting
+     * 
+     * @param nodeIn
+     */
     public static void printorder(Node nodeIn) {
         for (int i = 0; i < nodeIn.length; i++) {
             System.out.print("Item" + nodeIn.item[i] + "\t" + nodeIn.wt[i] + "\t" + nodeIn.pro[i] + "\n");
         }
     }
 
+    /**
+     * It is the starting point for the 0-1 knapsack problem
+     * 
+     * @param nodeIn
+     */
     public static void start_knapsack(Node nodeIn) {
         sort_by_pw(nodeIn);
-        // printorder(nodeIn);
+        printorder(nodeIn);
         int totalweight = 0;
         selected = new int[nodeIn.length];
         best = new int[nodeIn.length];
@@ -183,11 +202,19 @@ public class backtrack {
     }
 }
 
+/**
+ * New class to hold all the data
+ */
 class Node {
     int length;
     int[] wt, pro, item;
     int max_capacity;
 
+    /**
+     * Constructor to initialize
+     * 
+     * @param lengthIn
+     */
     public Node(int lengthIn) {
         length = lengthIn;
         wt = new int[length];

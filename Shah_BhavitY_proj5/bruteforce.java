@@ -69,18 +69,27 @@ public class bruteforce {
 
     }
 
+    /**
+     * performs brute force knapsack with recursion
+     * 
+     * @param values
+     * @param weights
+     * @param capacity
+     * @param n
+     * @param selected
+     * @return
+     */
     public static int knapsack(int[] values, int[] weights, int capacity, int n, boolean[] selected) {
-        // Base case: if no items or capacity is 0, return 0
+        
         if (n == 0 || capacity == 0) {
             return 0;
         }
 
-        // If weight of the nth item is more than the capacity, exclude it
+       
         if (weights[n - 1] > capacity) {
             return knapsack(values, weights, capacity, n - 1, selected);
         }
-        // Return the maximum value obtained by either including the nth item or
-        // excluding it
+        
         else {
             boolean[] includeSelected = Arrays.copyOf(selected, selected.length);
             includeSelected[n - 1] = true;
@@ -88,11 +97,11 @@ public class bruteforce {
                     + knapsack(values, weights, capacity - weights[n - 1], n - 1, includeSelected);
             int excludeValue = knapsack(values, weights, capacity, n - 1, selected);
             if (includeValue > excludeValue) {
-                // If including the nth item gives a higher value, select it
+                
                 System.arraycopy(includeSelected, 0, selected, 0, includeSelected.length);
                 return includeValue;
             } else {
-                // Otherwise, exclude it
+                
                 return excludeValue;
             }
         }
